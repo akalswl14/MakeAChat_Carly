@@ -61,6 +61,17 @@ input[type=password] {
     height: 6vh;
 }
 
+.login-error {
+    position: relative;
+    top: 18%;
+    font-family: helvetica;
+    margin: auto;
+    /* margin-bottom: 10px; */
+    font-size: 1vw;
+    text-shadow: 0 0 0.1em #000000;
+    color: red;
+}
+
 .login_button {
     position: relative;
     top: 20%;
