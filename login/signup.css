@@ -45,7 +45,6 @@ body {
 .login_input {
     border-radius: 12px;
     width: 70%;
-    margin-bottom: 20px;
 }
 
 input[type=text]:focus,
@@ -63,15 +62,15 @@ input[type=password] {
 
 .err {
     font-family: helvetica;
-    margin: auto;
-    margin-bottom: 1.2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     font-size: 1vw;
     color: red;
 }
 
 .signup_button {
     position: relative;
-    top: 20%;
+    top: 19%;
     border-radius: 12px;
     font-family: helvetica;
     margin: auto;
@@ -86,6 +85,14 @@ input[type=password] {
     padding-bottom: 1.5vh;
     text-align: center;
     background-color: #504e63;
+}
+
+.BackToLogin {
+    position: relative;
+    top: 20%;
+    margin: auto;
+    color: white;
+    font-family: Helvetica;
 }
 
 .right {
